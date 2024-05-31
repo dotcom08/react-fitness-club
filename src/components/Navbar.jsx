@@ -44,7 +44,7 @@ const Navbar = () => {
            
                 {/* logo */}
                 <div >
-                    <img src={logo} alt="/" className=' left-10 w-16 top-2 md:w-24 absolute md:top-0 md:left-[50%] translate-x-[-50%] z-[100]'/>
+                    <img src={logo} alt="/" className={`left-10 w-16 top-2 md:w-24 absolute md:top-0 md:left-[50%] translate-x-[-50%] z-[100] ${nav ? ' z-[-2]' : ''}`}/>
                 </div>
                 
                 <div className='flex items-center gap-4'>
