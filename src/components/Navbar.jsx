@@ -89,7 +89,7 @@ const Navbar = () => {
 
                 {/* menu mobile */}
                 <div className={`${nav ? "left-0" : "-left-[100%]"
-      } fixed top-0 w-[400px] h-screen z-[30]  dark:bg-gray-900 dark:text-white bg-white border-e rounded-lg shadow-lg transition-all duration-300 md:hidden`}>
+      } fixed top-0 w-[75%] h-screen z-[30]  dark:bg-gray-900 dark:text-white bg-white border-e rounded-lg shadow-lg transition-all duration-300 md:hidden`}>
 
                     <div className='px-10 pt-20 '>
 
